@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<string.h>
-int main() 
+int main()
 {
-char leftstr[]="g f g";
+char leftstr[]="z f z";
 char rightstr[]="g f g";
-int res =strcmp(leftstr,rightstr);
+int res=strcmp(leftstr,rightstr);
 if(res==0)
 	printf("strings are equal");
-else
+else 
 	printf("strings are unequal");
-printf("\nvalue returned by strcmp() is:%d",res);
+printf("\nvalue of result:%d",res);
 return 0;
 }
