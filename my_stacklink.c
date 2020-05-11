@@ -1,9 +1,9 @@
-// C program for linked list implementation of stack 
+
 #include <limits.h> 
 #include <stdio.h> 
 #include <stdlib.h> 
   
-// A structure to represent a stack 
+
 struct StackNode { 
     int data; 
     struct StackNode* next; 
